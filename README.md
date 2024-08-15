@@ -15,7 +15,7 @@ This repository is a personal project aimed at honing my JavaScript skills. The 
 
 ## Technologies Used
 
--**JavaScript**: The main language used for all exercises.
+- **JavaScript**: The main language used for all exercises.
 
 ## Contributing
 
