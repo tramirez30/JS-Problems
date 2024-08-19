@@ -9,9 +9,7 @@ const codeWarProblems = {
     let average = classPoints.reduce((acc, curr) => {
       return acc + curr;
     });
-    return average / classPoints.length > yourPoints
-      ? console.log("True")
-      : console.log("False");
+    return average / classPoints.length > yourPoints ? false : true;
   },
 };
 
