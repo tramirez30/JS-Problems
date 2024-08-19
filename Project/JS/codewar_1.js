@@ -7,10 +7,13 @@ const codeWarProblems = {
   betterThanAverage(classPoints, yourPoints) {
     let total;
     let average = classPoints.reduce((acc, curr) => {
-      return acc + curr;
+      total += acc + curr;
+      return total / classPoints.length;
     });
-    console.log(average);
+
+    console.log(total);
   },
 };
 
+// Test Case Problem #1 - How good are you really? (8 kyu)
 codeWarProblems.betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75);
