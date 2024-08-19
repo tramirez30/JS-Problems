@@ -6,12 +6,12 @@ const codeWarProblems = {
   // Problem 1: How good are you really? (8 kyu)
   betterThanAverage(classPoints, yourPoints) {
     // console.log(classPoints.length);
-    let total;
     let average = classPoints.reduce((acc, curr) => {
       return acc + curr;
     });
-
-    console.log(average / classPoints.length);
+    return average / classPoints.length > yourPoints
+      ? console.log("True")
+      : console.log("False");
   },
 };
 
