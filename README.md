@@ -26,12 +26,9 @@ This is a personal practice repository, so contributions are not expected. Howev
 
 Below is a list of Codewars problems I have worked on, along with their kyu level and a link to my solution.
 
-| Problem                                                        | Kyu Level | Solution                                  |
-| -------------------------------------------------------------- | --------- | ----------------------------------------- |
-| [Problem Name 1](https://www.codewars.com/kata/problem-link-1) | 6 kyu     | [My Solution](link-to-your-solution-1.js) |
-| [Problem Name 2](https://www.codewars.com/kata/problem-link-2) | 5 kyu     | [My Solution](link-to-your-solution-2.js) |
-| [Problem Name 3](https://www.codewars.com/kata/problem-link-3) | 4 kyu     | [My Solution](link-to-your-solution-3.js) |
-| [Problem Name 4](https://www.codewars.com/kata/problem-link-4) | 7 kyu     | [My Solution](link-to-your-solution-4.js) |
+| Problem                                                                                             | Kyu Level | Solution                                                                                     |
+| --------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------- |
+| [How good are you really?](https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript) | 8 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) |
 
 > **Note:** The kyu level indicates the difficulty of the problem, with lower numbers being harder.
 
