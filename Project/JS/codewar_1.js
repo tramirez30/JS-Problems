@@ -1,4 +1,4 @@
-// codewarsProblems.js
+// codewar_1.js
 
 // Namespace for all problems
 
