@@ -20,10 +20,17 @@ const codeWarProblems = {
     }
     return Math.min(...arr);
   },
+  // Problem 3: Convert a string to an array (8 kyu)
+  stringToArray(string) {
+    console.log(string);
+  },
 };
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
 // codeWarProblems.betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75);
 
 // Test Case Problem #2 - Shortest Word (7 kyu)
-codeWarProblems.findShort("Let's travel abroad shall we");
+// codeWarProblems.findShort("Let's travel abroad shall we");
+
+// Test Case Problem #2 - Convert a string to an array (8 kyu)
+codeWarProblems.stringToArray("Hello World");
