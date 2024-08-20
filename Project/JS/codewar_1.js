@@ -11,7 +11,13 @@ const codeWarProblems = {
     });
     return average / classPoints.length > yourPoints ? false : true;
   },
+  findShort(str) {
+    console.log(str);
+  },
 };
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
-codeWarProblems.betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75);
+// codeWarProblems.betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75);
+
+// Test Case Problem #2 - Shortest Word (7 kyu)
+codeWarProblems.findShort("Hello World");
