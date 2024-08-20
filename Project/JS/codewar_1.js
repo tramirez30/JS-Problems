@@ -11,13 +11,14 @@ const codeWarProblems = {
     });
     return average / classPoints.length > yourPoints ? false : true;
   },
+  // Problem 2: Shortest Word (7 kyu)
   findShort(str) {
     let words = str.split(" ");
     let arr = [];
     for (let i = 0; i < words.length; i++) {
       arr.push(words[i].length);
     }
-    console.log(Math.min(...arr));
+    return Math.min(...arr);
   },
 };
 
