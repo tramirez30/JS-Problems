@@ -22,7 +22,7 @@ const codeWarProblems = {
   },
   // Problem 3: Convert a string to an array (8 kyu)
   stringToArray(string) {
-    console.log(string);
+    return string.split(" ");
   },
 };
 
