@@ -13,9 +13,11 @@ const codeWarProblems = {
   },
   findShort(str) {
     let words = str.split(" ");
+    let arr = [];
     for (let i = 0; i < words.length; i++) {
-      console.log(words[i].length);
+      arr.push(words[i].length);
     }
+    console.log(Math.min(...arr));
   },
 };
 
