@@ -24,6 +24,11 @@ const codeWarProblems = {
   stringToArray(string) {
     return string.split(" ");
   },
+  // Problem 4: Perfect squares, perfect fun (7 kyu)
+  squareIt(int) {
+    console.log(int);
+    // return 'Not a perfect square!';
+  },
 };
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
@@ -33,4 +38,7 @@ const codeWarProblems = {
 // codeWarProblems.findShort("Let's travel abroad shall we");
 
 // Test Case Problem #2 - Convert a string to an array (8 kyu)
-codeWarProblems.stringToArray("Hello World");
+// codeWarProblems.stringToArray("Hello World");
+
+// Test Case Problem #3 - Perfect squares, perfect fun (7 kyu)
+codeWarProblems.squareInt("Hello World");
