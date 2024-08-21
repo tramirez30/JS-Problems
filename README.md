@@ -31,6 +31,7 @@ Below is a list of Codewars problems I have worked on, along with their kyu leve
 | [How good are you really?](https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript)     | 8 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) |
 | [Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript)                | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) |
 | [Convert a string to an array](https://www.codewars.com/kata/57e76bc428d6fbc2d500036d/train/javascript) | 8 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) |
+| [Perfect squares, perfect fun](https://www.codewars.com/kata/5705ca6a41e5be67720012c0/train/javascript) | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) |
 
 > **Note:** The kyu level indicates the difficulty of the problem, with lower numbers being harder.
 
