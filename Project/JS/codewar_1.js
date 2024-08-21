@@ -25,10 +25,13 @@ const codeWarProblems = {
     return string.split(" ");
   },
   // Problem 4: Perfect squares, perfect fun (7 kyu)
-  squareInt(int) {
+  squareIt(int) {
     const arr = int.toString();
-    console.log(Math.sqrt(arr.length) % 1 === 0);
-    // return 'Not a perfect square!';
+    if (Math.sqrt(arr.length) % 1 === 0) {
+      return arr;
+    } else {
+      return "Not a perfect square!";
+    }
   },
 };
 
@@ -42,4 +45,12 @@ const codeWarProblems = {
 // codeWarProblems.stringToArray("Hello World");
 
 // Test Case Problem #4 - Perfect squares, perfect fun (7 kyu)
+/* NOTE!!
+1212 returns:
+
+"12
+12"
+
+Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
+*/
 codeWarProblems.squareInt("Hello World");
