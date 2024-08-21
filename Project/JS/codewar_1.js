@@ -25,8 +25,9 @@ const codeWarProblems = {
     return string.split(" ");
   },
   // Problem 4: Perfect squares, perfect fun (7 kyu)
-  squareIt(int) {
-    console.log(int);
+  squareInt(int) {
+    const arr = int.toString();
+    console.log(Math.sqrt(arr.length) % 1 === 0);
     // return 'Not a perfect square!';
   },
 };
@@ -37,8 +38,8 @@ const codeWarProblems = {
 // Test Case Problem #2 - Shortest Word (7 kyu)
 // codeWarProblems.findShort("Let's travel abroad shall we");
 
-// Test Case Problem #2 - Convert a string to an array (8 kyu)
+// Test Case Problem #3 - Convert a string to an array (8 kyu)
 // codeWarProblems.stringToArray("Hello World");
 
-// Test Case Problem #3 - Perfect squares, perfect fun (7 kyu)
+// Test Case Problem #4 - Perfect squares, perfect fun (7 kyu)
 codeWarProblems.squareInt("Hello World");
