@@ -28,7 +28,10 @@ const codeWarProblems = {
   squareIt(int) {
     const arr = int.toString();
     if (Math.sqrt(arr.length) % 1 === 0) {
-      console.log(Math.sqrt(arr.length));
+      let count = Math.sqrt(arr.length);
+      for (let i = 0; i < arr.length; i += count) {
+        console.log(arr[i]);
+      }
     } else {
       console.log("Not a perfect square!");
     }
@@ -53,4 +56,4 @@ const codeWarProblems = {
 
 Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 */
-codeWarProblems.squareIt(234562342342);
+codeWarProblems.squareIt(1234);
