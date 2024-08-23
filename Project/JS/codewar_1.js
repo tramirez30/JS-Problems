@@ -26,6 +26,7 @@ const codeWarProblems = {
   },
   // Problem 4: Perfect squares, perfect fun (7 kyu)
   squareIt(int) {
+    let str = "";
     const arr = int.toString();
     if (Math.sqrt(arr.length) % 1 === 0) {
       let count = Math.sqrt(arr.length);
