@@ -24,7 +24,7 @@ const codeWarProblems = {
   stringToArray(string) {
     return string.split(" ");
   },
-  // Problem 4: Perfect squares, perfect fun (7 kyu)
+  // Problem 4: Perfect squares, perfect fun (7 kyu) [Work In Progress]
   squareIt(int) {
     let str = "";
     const arr = int.toString();
@@ -37,6 +37,10 @@ const codeWarProblems = {
       console.log("Not a perfect square!");
     }
   },
+  // Problem 5: CamelCase Method - 6kyu [Work In Progress]
+  // String.prototype.camelCase=function(){
+  //your code here
+  // }
 };
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
