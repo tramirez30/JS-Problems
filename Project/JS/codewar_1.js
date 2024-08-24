@@ -27,12 +27,10 @@ const codeWarProblems = {
   // Problem 4: Perfect squares, perfect fun (7 kyu) [Work In Progress]
   squareIt(int) {
     let str = "";
-    const arr = int.toString();
+    const arr = int.toString().split();
+    console.log("Array:", arr);
     if (Math.sqrt(arr.length) % 1 === 0) {
-      let count = Math.sqrt(arr.length);
-      for (let i = 0; i < arr.length; i += count) {
-        console.log(arr[i]);
-      }
+      console.log("Perfect Square!");
     } else {
       console.log("Not a perfect square!");
     }
