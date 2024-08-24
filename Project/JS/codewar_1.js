@@ -26,14 +26,17 @@ const codeWarProblems = {
   },
   // Problem 4: Perfect squares, perfect fun (7 kyu) [Work In Progress]
   squareIt(int) {
-    let str = "";
-    const arr = int.toString().split();
-    console.log("Array:", arr);
+    const arr = int.toString().split("");
+    let index = 0;
+    let half = Math.ceil(arr.length / 2);
+
+    console.log("Arr:", arr, "Length:", arr.length);
     if (Math.sqrt(arr.length) % 1 === 0) {
-      console.log("Perfect Square!");
+      console.log("Half:", arr.splice(index, half));
     } else {
       console.log("Not a perfect square!");
     }
+    index += half;
   },
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
   // String.prototype.camelCase=function(){
