@@ -32,9 +32,9 @@ const codeWarProblems = {
     const newLine = "\n";
     console.log("Root", root);
     console.log(`This is a line.${newLine}This is a new line.`);
-    arr.filter((item) => {
-      console.log("Item", item);
-    });
+    for (let i = 0; i < arr.length; i++) {
+      console.log("Value", arr[i]);
+    }
   },
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
   // String.prototype.camelCase=function(){
