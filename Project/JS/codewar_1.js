@@ -29,9 +29,12 @@ const codeWarProblems = {
     const arr = int.toString().split("");
     console.log("Array", arr);
     const root = Math.ceil(arr.length / 2);
-    let newLine = "\n";
+    const newLine = "\n";
     console.log("Root", root);
-    console.log(`This is a sentence.${newLine}This is a new line.`);
+    console.log(`This is a line.${newLine}This is a new line.`);
+    arr.filter((item) => {
+      console.log("Item", item);
+    });
   },
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
   // String.prototype.camelCase=function(){
