@@ -37,7 +37,8 @@ const codeWarProblems = {
   camelCase(str) {
     let arr = str.split(" ");
     for (let item of arr) {
-      console.log(item);
+      let letter = item.slice(0, 1).toUpperCase();
+      console.log(letter);
     }
   },
 };
