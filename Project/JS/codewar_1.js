@@ -24,7 +24,7 @@ const codeWarProblems = {
   stringToArray(string) {
     return string.split(" ");
   },
-  // Problem 4: Perfect squares, perfect fun (7 kyu) [Work In Progress]
+  // Problem 4: Perfect squares, perfect fun (7 kyu) [Did not complete 🚫]
   squareIt(int) {
     const arr = int.toString().split("");
     console.log("Array", arr);
