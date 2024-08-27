@@ -36,7 +36,9 @@ const codeWarProblems = {
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
   camelCase(str) {
     let arr = str.split(" ");
-    console.log(arr);
+    for (let item of arr) {
+      console.log(item);
+    }
   },
 };
 
