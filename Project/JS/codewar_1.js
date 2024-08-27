@@ -34,9 +34,10 @@ const codeWarProblems = {
     console.log(`This is a line.${newLine}This is a new line.`);
   },
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
-  // String.prototype.camelCase=function(){
-  //your code here
-  // }
+  camelCase(str) {
+    let arr = str.split(" ");
+    console.log(arr);
+  },
 };
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
@@ -54,7 +55,9 @@ const codeWarProblems = {
 
 "12
 12"
-
 Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 */
-codeWarProblems.squareIt(1234);
+// codeWarProblems.squareIt(1234);
+
+// Test Case Problem #5 - CamelCase Method (6kyu)
+codeWarProblems.camelCase("hello world");
