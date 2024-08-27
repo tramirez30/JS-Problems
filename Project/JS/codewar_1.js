@@ -38,7 +38,7 @@ const codeWarProblems = {
     let arr = str.split(" ");
     for (let item of arr) {
       let letter = item.slice(0, 1).toUpperCase();
-      console.log(letter);
+      console.log((letter += item));
     }
   },
 };
