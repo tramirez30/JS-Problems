@@ -36,13 +36,14 @@ const codeWarProblems = {
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
   camelCase(str) {
     let arr = str.split(" ");
+    let newArr = [];
     for (let item of arr) {
       let letter = item.slice(0, 1).toUpperCase();
       let word = item.slice(1).toLowerCase();
-      console.log("Letter", letter);
-      console.log("Word", word);
+      let newWord = `${letter}${word}`;
+      newArr.push(newWord);
     }
-    // console.log("Output:", (letter += word));
+    console.log("Output:", newArr.join(""));
   },
 };
 
