@@ -39,8 +39,10 @@ const codeWarProblems = {
     for (let item of arr) {
       let letter = item.slice(0, 1).toUpperCase();
       let word = item.slice(1).toLowerCase();
-      console.log("Output:", letter + word);
+      console.log("Letter", letter);
+      console.log("Word", word);
     }
+    // console.log("Output:", (letter += word));
   },
 };
 
