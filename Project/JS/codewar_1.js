@@ -34,6 +34,20 @@ const codeWarProblems = {
     console.log(`This is a line.${newLine}This is a new line.`);
   },
   // Problem 5: CamelCase Method - 6kyu [Work In Progress]
+  /* 
+  My solution for codewars (Prototype)
+  String.prototype.camelCase=function(){
+    let arr = this.split(" "); // References the String
+        let newArr = [];
+        for (let item of arr) {
+          let letter = item.slice(0, 1).toUpperCase();
+          let word = item.slice(1).toLowerCase();
+          let newWord = `${letter}${word}`;
+          newArr.push(newWord);
+        }
+        return newArr.join("");
+  }
+  */
   camelCase(str) {
     let arr = str.split(" ");
     let newArr = [];
@@ -43,7 +57,7 @@ const codeWarProblems = {
       let newWord = `${letter}${word}`;
       newArr.push(newWord);
     }
-    console.log("Output:", newArr.join(""));
+    return newArr.join("");
   },
 };
 
