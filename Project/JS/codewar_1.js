@@ -60,7 +60,7 @@ const codeWarProblems = {
     return newArr.join("");
   },
   // Problem 6: Number to Digit Tiers - 7 kyu
-  createArrayOfTiers() {
+  createArrayOfTiers(num) {
     console.log("Hola Mundo!");
   },
 };
@@ -88,4 +88,5 @@ Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 // codeWarProblems.camelCase("hello world");
 
 // Test Case Problem #6 - Number to Digit Tiers (7 kyu)
+// 420 should return ["4", "42", "420"]
 codeWarProblems.createArrayOfTiers();
