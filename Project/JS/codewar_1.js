@@ -61,7 +61,8 @@ const codeWarProblems = {
   },
   // Problem 6: Number to Digit Tiers - 7 kyu
   createArrayOfTiers(num) {
-    console.log("Hola Mundo!");
+    let arr = num.toString().split("");
+    console.log(arr);
   },
 };
 
@@ -90,6 +91,7 @@ Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 // Test Case Problem #6 - Number to Digit Tiers (7 kyu)
 // 420 should return ["4", "42", "420"]
 // Create a new empty Array [] (I will push the new values here)
+// Convert Number into a String
 // Split Number into an array
 //["4", "2", "0"]
 // Loop through array
@@ -98,4 +100,4 @@ Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 // Push new value to empty Array
 // Return Array
 
-codeWarProblems.createArrayOfTiers();
+codeWarProblems.createArrayOfTiers(420);
