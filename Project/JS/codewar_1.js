@@ -61,6 +61,7 @@ const codeWarProblems = {
   },
   // Problem 6: Number to Digit Tiers - 7 kyu
   createArrayOfTiers(num) {
+    let newArr = [];
     let arr = num.toString().split("");
     console.log(arr);
   },
