@@ -63,12 +63,13 @@ const codeWarProblems = {
   createArrayOfTiers(num) {
     let newArr = [];
     let arr = num.toString().split("");
+    console.log("Old Array:", arr);
     let tiers = "";
     for (let item of arr) {
       tiers += item;
       newArr.push(tiers);
     }
-    console.log("New Array:", newArr);
+    return newArr;
   },
 };
 
@@ -106,4 +107,4 @@ Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 // Push new value to empty Array
 // Return Array
 
-codeWarProblems.createArrayOfTiers(420);
+codeWarProblems.createArrayOfTiers(777);
