@@ -63,7 +63,9 @@ const codeWarProblems = {
   createArrayOfTiers(num) {
     let newArr = [];
     let arr = num.toString().split("");
-    console.log(arr);
+    for (let item of arr) {
+      console.log("Item:", item);
+    }
   },
 };
 
