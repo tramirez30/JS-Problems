@@ -89,4 +89,13 @@ Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 
 // Test Case Problem #6 - Number to Digit Tiers (7 kyu)
 // 420 should return ["4", "42", "420"]
+// Create a new empty Array [] (I will push the new values here)
+// Split Number into an array
+//["4", "2", "0"]
+// Loop through array
+// Create new variable to hold value of [i]
+// Append value of [i] (+=)
+// Push new value to empty Array
+// Return Array
+
 codeWarProblems.createArrayOfTiers();
