@@ -59,6 +59,10 @@ const codeWarProblems = {
     }
     return newArr.join("");
   },
+  // Problem 6: Number to Digit Tiers - 7 kyu
+  createArrayOfTiers() {
+    console.log("Hola Mundo!");
+  },
 };
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
@@ -81,4 +85,7 @@ Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
 // codeWarProblems.squareIt(1234);
 
 // Test Case Problem #5 - CamelCase Method (6kyu)
-codeWarProblems.camelCase("hello world");
+// codeWarProblems.camelCase("hello world");
+
+// Test Case Problem #6 - Number to Digit Tiers (7 kyu)
+codeWarProblems.createArrayOfTiers();
