@@ -34,6 +34,7 @@ Below is a list of Codewars problems I have worked on, along with their kyu leve
 | [Perfect squares, perfect fun](https://www.codewars.com/kata/5705ca6a41e5be67720012c0/train/javascript) | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :no_entry_sign: **Did not pass** |
 | [CamelCase Method](https://www.codewars.com/kata/587731fda577b3d1b0001196/train/javascript)             | 6 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
 | [Number to Digits Tiers](https://www.codewars.com/kata/586bca7fa44cfc833e00005c)                        | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
+| [PaginationHelper](https://www.codewars.com/kata/515bb423de843ea99400000a/train/javascript)             | 5 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :construction: _In Progress_     |
 
 > **Note:** The kyu level indicates the difficulty of the problem, with lower numbers being harder.
 
