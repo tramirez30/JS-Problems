@@ -77,12 +77,13 @@ const codeWarProblems = {
 
 class PaginationHelper {
   constructor(collection, itemsPerPage) {
-    // The constructor takes in an array of items and a integer indicating how many
-    // items fit within a single page
+    this.collection = collection;
+    this.itemsPerPage = itemsPerPage;
   }
   itemCount() {
     // returns the number of items within the entire collection
-    console.log(collection.length);
+
+    console.log("Length:", this.collection.length);
   }
   pageCount() {
     // returns the number of pages
@@ -127,8 +128,10 @@ class PaginationHelper {
 // codeWarProblems.createArrayOfTiers(777);
 
 // Test Case Problem #7 - PaginationHelper (5kyu)
+var helper = new PaginationHelper(["a", "b", "c", "d", "e", "f"], 4);
+helper.itemCount();
 /* 
-var helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
+
 helper.pageCount(); // should == 2
 helper.itemCount(); // should == 6
 helper.pageItemCount(0); // should == 4
