@@ -83,7 +83,7 @@ class PaginationHelper {
   itemCount() {
     // returns the number of items within the entire collection
 
-    console.log("Length:", this.collection.length);
+    return this.collection.length;
   }
   pageCount() {
     // returns the number of pages
