@@ -107,13 +107,6 @@ class PaginationHelper {
 // codeWarProblems.stringToArray("Hello World");
 
 // Test Case Problem #4 - Perfect squares, perfect fun (7 kyu)
-/* NOTE!!
-1212 returns:
-
-"12
-12"
-Note: 4 digits so 2 squared (2x2 perfect square). 2 digits on each line.
-*/
 // codeWarProblems.squareIt(1234);
 
 // Test Case Problem #5 - CamelCase Method (6kyu)
