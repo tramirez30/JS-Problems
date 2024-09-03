@@ -79,6 +79,7 @@ class PaginationHelper {
   constructor(collection, itemsPerPage) {
     this.collection = collection;
     this.itemsPerPage = itemsPerPage;
+    this.pageNum = collection.length / itemsPerPage;
   }
   itemCount() {
     // returns the number of items within the entire collection
