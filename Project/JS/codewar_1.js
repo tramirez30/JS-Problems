@@ -79,7 +79,7 @@ class PaginationHelper {
   constructor(collection, itemsPerPage) {
     this.collection = collection;
     this.itemsPerPage = itemsPerPage;
-    this.pageNum = collection.length / itemsPerPage;
+    this.pageNum = Math.ceil(collection.length / itemsPerPage);
   }
   itemCount() {
     // returns the number of items within the entire collection
@@ -88,6 +88,7 @@ class PaginationHelper {
   }
   pageCount() {
     // returns the number of pages
+    console.log("Pages:", this.pageNum);
   }
   pageItemCount(pageIndex) {
     // returns the number of items on the current page. page_index is zero based.
@@ -131,6 +132,7 @@ class PaginationHelper {
 // Test Case Problem #7 - PaginationHelper (5kyu)
 var helper = new PaginationHelper(["a", "b", "c", "d", "e", "f"], 4);
 helper.itemCount();
+helper.pageCount();
 /* 
 
 helper.pageCount(); // should == 2
