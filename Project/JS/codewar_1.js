@@ -88,7 +88,7 @@ class PaginationHelper {
   }
   pageCount() {
     // returns the number of pages
-    console.log("Pages:", this.pageNum);
+    return this.pageNum;
   }
   pageItemCount(pageIndex) {
     // returns the number of items on the current page. page_index is zero based.
