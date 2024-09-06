@@ -35,6 +35,7 @@ Below is a list of Codewars problems I have worked on, along with their kyu leve
 | [CamelCase Method](https://www.codewars.com/kata/587731fda577b3d1b0001196/train/javascript)             | 6 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
 | [Number to Digits Tiers](https://www.codewars.com/kata/586bca7fa44cfc833e00005c)                        | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
 | [PaginationHelper](https://www.codewars.com/kata/515bb423de843ea99400000a/train/javascript)             | 5 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :construction: _In Progress_     |
+| [DNA to RNA Conversion](https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript)        | 8 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :construction: _In Progress_     |
 
 > **Note:** The kyu level indicates the difficulty of the problem, with lower numbers being harder.
 
