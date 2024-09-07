@@ -71,6 +71,10 @@ const codeWarProblems = {
     }
     return newArr;
   },
+  DNAtoRNA(dna) {
+    // create a function which returns an RNA sequence from the given DNA sequence
+    console.log(dna);
+  },
 };
 
 // Problem 7: PaginationHelper - 5 kyu
@@ -132,9 +136,9 @@ class PaginationHelper {
 // codeWarProblems.createArrayOfTiers(777);
 
 // Test Case Problem #7 - PaginationHelper (5kyu)
-var helper = new PaginationHelper(["a", "b", "c", "d", "e", "f"], 4);
-helper.itemCount();
-helper.pageCount();
+// var helper = new PaginationHelper(["a", "b", "c", "d", "e", "f"], 4);
+// helper.itemCount();
+// helper.pageCount();
 /* 
 
 helper.pageCount(); // should == 2
@@ -149,3 +153,6 @@ helper.pageIndex(2); // should == 0
 helper.pageIndex(20); // should == -1
 helper.pageIndex(-10); // should == -1
 */
+
+// Test Case Problem #8 - DNA to RNA (7kyu)
+codeWarProblems.DNAtoRNA("Hello World");
