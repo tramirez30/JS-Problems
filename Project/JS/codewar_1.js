@@ -73,10 +73,11 @@ const codeWarProblems = {
   },
   DNAtoRNA(dna) {
     // create a function which returns an RNA sequence from the given DNA sequence
-    console.log(dna);
-    console.log(dna);
-    console.log(dna);
-    console.log(dna);
+    let arr = dna.split("");
+    for (let letter of arr) {
+      letter.replace("T", "U");
+      console.log("Letter", letter);
+    }
   },
 };
 
@@ -158,4 +159,4 @@ helper.pageIndex(-10); // should == -1
 */
 
 // Test Case Problem #8 - DNA to RNA (7kyu)
-codeWarProblems.DNAtoRNA("Hello World");
+codeWarProblems.DNAtoRNA("TTTT");
