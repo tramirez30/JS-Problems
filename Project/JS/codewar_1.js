@@ -74,6 +74,9 @@ const codeWarProblems = {
   DNAtoRNA(dna) {
     // create a function which returns an RNA sequence from the given DNA sequence
     console.log(dna);
+    console.log(dna);
+    console.log(dna);
+    console.log(dna);
   },
 };
 
