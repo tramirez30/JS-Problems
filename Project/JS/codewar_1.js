@@ -73,11 +73,8 @@ const codeWarProblems = {
   },
   DNAtoRNA(dna) {
     // create a function which returns an RNA sequence from the given DNA sequence
-    let arr = dna.split("");
-    for (let letter of arr) {
-      letter.replace("T", "U");
-      console.log("Letter", letter);
-    }
+    let rna = /T/g;
+    console.log(dna.replace(rna, "U"));
   },
 };
 
