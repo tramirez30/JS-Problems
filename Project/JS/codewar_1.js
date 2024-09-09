@@ -156,4 +156,6 @@ helper.pageIndex(-10); // should == -1
 */
 
 // Test Case Problem #8 - DNA to RNA (7kyu)
-codeWarProblems.DNAtoRNA("TTTT");
+codeWarProblems.DNAtoRNA(
+  "CACGACATACGGAGCAGCGCACGGTTAGTACAGCTGTCGGTGAACTCCATGACA"
+);
