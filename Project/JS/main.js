@@ -142,3 +142,4 @@ console.log(retArray);
 */
 
 // READ: https://eloquentjavascript.net/06_object.html
+// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=Overriding%20derived%20properties
