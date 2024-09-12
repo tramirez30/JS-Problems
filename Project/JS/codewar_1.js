@@ -80,7 +80,12 @@ const codeWars = {
   // Problem 9: Who likes it? - 6kyu
   likes(names) {
     // TODO
-    console.log(names);
+    console.log("Length:", names.length);
+    if (!names.length) {
+      console.log("no one likes this");
+    }
+    let [first, second, third, ...others] = names;
+    console.log(second);
   },
 };
 
@@ -167,5 +172,6 @@ helper.pageIndex(-10); // should == -1
 // );
 
 // Test Case Problem #9 - Who likes it? (6kyu)
-let numOfLikes = codeWars.likes(["Max", "John", "Mark"]);
-console.log(numOfLikes);
+let zeroNumOfLikes = codeWars.likes([]);
+// let numOfLikes = codeWars.likes(["Max", "John", "Mark"]);
+console.log(zeroNumOfLikes);
