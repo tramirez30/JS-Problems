@@ -71,10 +71,16 @@ const codeWarProblems = {
     }
     return newArr;
   },
+  // Problem 8: DNAtoRNA - 7kyu
   DNAtoRNA(dna) {
     // create a function which returns an RNA sequence from the given DNA sequence
     let RNA = /T/g;
     return dna.replace(RNA, "U");
+  },
+  // Problem 9: Who likes it? - 6kyu
+  likes(names) {
+    // TODO
+    console.log(names);
   },
 };
 
@@ -156,6 +162,6 @@ helper.pageIndex(-10); // should == -1
 */
 
 // Test Case Problem #8 - DNA to RNA (7kyu)
-codeWarProblems.DNAtoRNA(
-  "CACGACATACGGAGCAGCGCACGGTTAGTACAGCTGTCGGTGAACTCCATGACA"
-);
+// codeWarProblems.DNAtoRNA(
+//   "CACGACATACGGAGCAGCGCACGGTTAGTACAGCTGTCGGTGAACTCCATGACA"
+// );
