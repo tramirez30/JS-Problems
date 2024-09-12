@@ -85,7 +85,7 @@ const codeWars = {
       console.log("no one likes this");
     }
     let [first, second, third, ...others] = names;
-    console.log(second);
+    // Use switch statement
   },
 };
 
