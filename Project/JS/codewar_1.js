@@ -2,7 +2,7 @@
 
 // Namespace for all problems
 
-const codeWarProblems = {
+const codeWars = {
   // Problem 1: How good are you really? (8 kyu)
   betterThanAverage(classPoints, yourPoints) {
     // console.log(classPoints.length);
@@ -165,3 +165,7 @@ helper.pageIndex(-10); // should == -1
 // codeWarProblems.DNAtoRNA(
 //   "CACGACATACGGAGCAGCGCACGGTTAGTACAGCTGTCGGTGAACTCCATGACA"
 // );
+
+// Test Case Problem #9 - Who likes it? (6kyu)
+let numOfLikes = codeWars.likes(["Max", "John", "Mark"]);
+console.log(numOfLikes);
