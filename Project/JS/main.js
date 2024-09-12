@@ -147,3 +147,4 @@ console.log(retArray);
 // Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=Getters%2C%20setters%2C%20and%20statics
 // Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=celsius)%3B%0A//%20%E2%86%92%20100-,Symbols,-I%20mentioned%20in
 // Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=//%20%E2%86%92%2021500%202-,The%20iterator%20interface,-The%20object%20given
+// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=P%22%2C%20%22C%22%2C%20%22I%22%5D-,Inheritance,-Imagine%20we%20need
