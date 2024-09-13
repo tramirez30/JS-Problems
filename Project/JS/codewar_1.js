@@ -88,7 +88,6 @@ const codeWars = {
     // Use switch statement
     let num = names.length;
     console.log(`First: ${first}`);
-    console.log("Type:", typeof num);
 
     switch (num) {
       case num === 1: {
@@ -198,7 +197,7 @@ helper.pageIndex(-10); // should == -1
 
 // Test Case Problem #9 - Who likes it? (6kyu)
 // let zeroNumOfLikes = codeWars.likes([]);
-// let numOfLikes = codeWars.likes(["Max", "John", "Mark"]);
-let numOfLikes = codeWars.likes([]);
+let numOfLikes = codeWars.likes(["Max", "John", "Mark"]);
+// let numOfLikes = codeWars.likes([]);
 // let numOfLikes = codeWars.likes(["Max"]);
 console.log(numOfLikes);
