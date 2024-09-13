@@ -82,29 +82,26 @@ const codeWars = {
     // TODO
     console.log("Length:", names.length);
     if (!names.length) {
-      console.log("no one likes this");
+      return "no one likes this";
     }
-    let [first, second, third, ...others] = names;
-    // Use switch statement
+    let [first, second, third] = names;
     let num = names.length;
-    console.log(`First: ${first}`);
 
     switch (num) {
       case 1: {
-        console.log(`${first} likes this`);
-        break;
+        return `${first} likes this`;
       }
       case 2: {
-        console.log(`${first} and ${second} like this`);
-        break;
+        return `${first} and ${second} like this`;
       }
       case 3: {
-        console.log(`${first}, ${second} and ${third} like this`);
-        break;
+        return `${first}, ${second} and ${third} like this`;
+      }
+      case 4: {
+        return `${first}, ${second} and 2 others like this`;
       }
       default: {
-        console.log(`${first}, ${second} and 2 others like this`);
-        break;
+        return `${first}, ${second} and ${num - 2} others like this`;
       }
     }
   },
