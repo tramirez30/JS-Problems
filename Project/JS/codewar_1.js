@@ -90,24 +90,21 @@ const codeWars = {
     console.log(`First: ${first}`);
 
     switch (num) {
-      case num === 1: {
+      case 1: {
         console.log(`${first} likes this`);
         break;
       }
-      case num === 2: {
+      case 2: {
         console.log(`${first} and ${second} like this`);
         break;
       }
-      case num === 3: {
+      case 3: {
         console.log(`${first}, ${second} and ${third} like this`);
         break;
       }
-      case num > 4: {
+      default: {
         console.log(`${first}, ${second} and 2 others like this`);
         break;
-      }
-      default: {
-        console.log("Incorrect Value!");
       }
     }
   },
