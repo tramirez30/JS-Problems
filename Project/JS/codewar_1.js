@@ -87,12 +87,29 @@ const codeWars = {
     let [first, second, third, ...others] = names;
     // Use switch statement
     let num = names.length;
+    console.log(`First: ${first}`);
+    console.log("Type:", typeof num);
+
     switch (num) {
-      case num === 1:
+      case num === 1: {
         console.log(`${first} likes this`);
         break;
-      default:
+      }
+      case num === 2: {
+        console.log(`${first} and ${second} like this`);
+        break;
+      }
+      case num === 3: {
+        console.log(`${first}, ${second} and ${third} like this`);
+        break;
+      }
+      case num > 4: {
+        console.log(`${first}, ${second} and 2 others like this`);
+        break;
+      }
+      default: {
         console.log("Incorrect Value!");
+      }
     }
   },
 };
@@ -182,5 +199,6 @@ helper.pageIndex(-10); // should == -1
 // Test Case Problem #9 - Who likes it? (6kyu)
 // let zeroNumOfLikes = codeWars.likes([]);
 // let numOfLikes = codeWars.likes(["Max", "John", "Mark"]);
-let numOfLikes = codeWars.likes(["Max"]);
+let numOfLikes = codeWars.likes([]);
+// let numOfLikes = codeWars.likes(["Max"]);
 console.log(numOfLikes);
