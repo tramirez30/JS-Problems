@@ -196,4 +196,4 @@ helper.pageIndex(-10); // should == -1
 // let numOfLikes = codeWars.likes(["Alex", "Jacob", "Mark", "Max"]);
 // let numOfLikes = codeWars.likes([]);
 // let numOfLikes = codeWars.likes(["Max"]);
-console.log(numOfLikes);
+// console.log(numOfLikes);
