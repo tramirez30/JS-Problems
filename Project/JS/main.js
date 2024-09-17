@@ -155,8 +155,9 @@ class Vec {
     this.y = y;
   }
   plus(x, y) {
-    console.log(x);
-    console.log(y);
+    // Current value is 1
+    // New Value being passed is 2
+    // Final result should be 3 (x)
   }
   minus() {}
   readTest() {
@@ -165,8 +166,8 @@ class Vec {
   }
 }
 
-let variant1 = new Vec(1, 2);
-console.log(variant1.next());
+// let variant1 = new Vec(1, 2);
+// console.log(variant1.next());
 
 console.log("Logic:", new Vec(1, 2).plus(new Vec(2, 3)));
 // → Vec{x: 3, y: 5}
