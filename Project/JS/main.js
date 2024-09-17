@@ -148,3 +148,25 @@ let retArray = JSON.parse(retString);
 */
 
 // Problem: https://eloquentjavascript.net/06_object.html#:~:text=Exercises-,A%20vector%20type,-Write%20a%20class
+
+class Vec {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+  plus() {
+    this.x += this.x;
+    this.y += this.y;
+  }
+  minus() {
+    this.x -= this.x;
+    this.y -= this.y;
+  }
+}
+
+console.log(new Vec(1, 2).plus(new Vec(2, 3)));
+// → Vec{x: 3, y: 5}
+console.log(new Vec(1, 2).minus(new Vec(2, 3)));
+// → Vec{x: -1, y: -1}
+console.log(new Vec(3, 4).length);
+// → 5
