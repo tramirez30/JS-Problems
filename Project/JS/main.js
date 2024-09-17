@@ -154,19 +154,23 @@ class Vec {
     this.x = x;
     this.y = y;
   }
-  plus() {
-    this.x += this.x;
-    this.y += this.y;
+  plus(x, y) {
+    console.log(x);
+    console.log(y);
   }
-  minus() {
-    this.x -= this.x;
-    this.y -= this.y;
+  minus() {}
+  readTest() {
+    console.log(`X, ${this.x}`);
+    console.log(`Y, ${this.y}`);
   }
 }
 
-console.log(new Vec(1, 2).plus(new Vec(2, 3)));
+let variant1 = new Vec(1, 2);
+console.log(variant1.next());
+
+console.log("Logic:", new Vec(1, 2).plus(new Vec(2, 3)));
 // → Vec{x: 3, y: 5}
-console.log(new Vec(1, 2).minus(new Vec(2, 3)));
+// console.log(new Vec(1, 2).minus(new Vec(2, 3)));
 // → Vec{x: -1, y: -1}
-console.log(new Vec(3, 4).length);
+// console.log(new Vec(3, 4).length);
 // → 5
