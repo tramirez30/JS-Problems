@@ -123,7 +123,7 @@ let sean = new Account("Sean");
 let brad = new Account("Brad");
 let georges = new Account("Georges");
 
-const allAccounts = [sean, brad, georges];
+// const allAccounts = [sean, brad, georges];
 
 // allAccounts[0].credit();
 // allAccounts[0].credit();
@@ -133,7 +133,7 @@ const allAccounts = [sean, brad, georges];
 
 let retString = localStorage.getItem("Accounts");
 let retArray = JSON.parse(retString);
-console.log(retArray);
+// console.log(retArray);
 
 /* 
 ########################################################################################################################  
@@ -141,11 +141,10 @@ console.log(retArray);
 ########################################################################################################################  
 */
 
-// READ: https://eloquentjavascript.net/06_object.html
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=Overriding%20derived%20properties
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=//%20%E2%86%92%20%5Bobject%20Array%5D-,Maps,-We%20saw%20the
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=Getters%2C%20setters%2C%20and%20statics
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=celsius)%3B%0A//%20%E2%86%92%20100-,Symbols,-I%20mentioned%20in
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=//%20%E2%86%92%2021500%202-,The%20iterator%20interface,-The%20object%20given
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=P%22%2C%20%22C%22%2C%20%22I%22%5D-,Inheritance,-Imagine%20we%20need
-// Stopped Reading at: https://eloquentjavascript.net/06_object.html#:~:text=of%20Object.-,Summary,-Objects%20do%20more
+/* 
+######################################################################################################################## 
+######################################### Exercise - Eloquent JS ####################################################### 
+########################################################################################################################  
+*/
+
+// Problem: https://eloquentjavascript.net/06_object.html#:~:text=Exercises-,A%20vector%20type,-Write%20a%20class
