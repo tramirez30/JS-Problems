@@ -155,9 +155,10 @@ class Vec {
     this.y = y;
   }
   plus(x, y) {
-    // Current value is 1
-    // New Value being passed is 2
-    // Final result should be 3 (x)
+    let newXValue = this.x + x;
+    let newYValue = this.y + y;
+    console.log("New X Value:", newXValue);
+    console.log("New Y Value:", newYValue);
   }
   minus() {}
   readTest() {
