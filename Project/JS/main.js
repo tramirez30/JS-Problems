@@ -150,27 +150,18 @@ let retArray = JSON.parse(retString);
 // Problem: https://eloquentjavascript.net/06_object.html#:~:text=Exercises-,A%20vector%20type,-Write%20a%20class
 
 class Vec {
-  constructor(x, y) {
+  constructor(x, y, plus) {
     this.x = x;
     this.y = y;
   }
-  plus(x, y) {
-    let newXValue = this.x + x;
-    let newYValue = this.y + y;
-    console.log("New X Value:", newXValue);
-    console.log("New Y Value:", newYValue);
-  }
+  plus() {}
   minus() {}
-  readTest() {
-    console.log(`X, ${this.x}`);
-    console.log(`Y, ${this.y}`);
-  }
 }
-
+let newVar = new Vec(1, 2);
 // let variant1 = new Vec(1, 2);
 // console.log(variant1.next());
 
-console.log("Logic:", new Vec(1, 2).plus(new Vec(2, 3)));
+console.log("Logic:", newVar);
 // → Vec{x: 3, y: 5}
 // console.log(new Vec(1, 2).minus(new Vec(2, 3)));
 // → Vec{x: -1, y: -1}
