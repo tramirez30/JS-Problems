@@ -154,13 +154,12 @@ class Vec {
     this.x = x;
     this.y = y;
   }
-  plus() {}
+  plus(other) {
+    return new Vec(this.x + other.x, this.y + other.y);
+  }
   minus() {}
 }
-let newVar = new Vec(1, 2);
-// let variant1 = new Vec(1, 2);
-// console.log(variant1.next());
-
+let newVar = new Vec(1, 2).plus(new Vec(3, 4));
 console.log("Logic:", newVar);
 // → Vec{x: 3, y: 5}
 // console.log(new Vec(1, 2).minus(new Vec(2, 3)));
