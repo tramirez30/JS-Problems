@@ -197,3 +197,43 @@ helper.pageIndex(-10); // should == -1
 // let numOfLikes = codeWars.likes([]);
 // let numOfLikes = codeWars.likes(["Max"]);
 // console.log(numOfLikes);
+
+/*
+New Codewar Problem [NEED TO ADD TO LOG]
+// Code War Problem
+
+// function order(words) {
+//   let gatheredWords = words.split(" ");
+//   gatheredWords.forEach((word) => {
+//     let smallWord = word.split("");
+//     // ['is2', 'Thi1s', 'T4est' '3a']
+//     const sortedArray = smallWord.reduce((acc, curr) => {
+//       if (Number(curr) !== NaN) {
+//         let position = curr;
+//         console.log("Position", position);
+//       } else {
+//         let arr = [];
+//         arr.push(curr);
+//         console.log("Array:", arr);
+//       }
+//     }, []);
+//     console.log("Result:", sortedArray);
+//   });
+// }
+
+// Codewar Problem Exercies (6kyu)
+
+function order(words) {
+  let arr = words.split(" ");
+  // let numericalSearch = /[0-9]/g;
+  // let newArr = words.match(numericalSearch).sort();
+  let newArr = arr.filter((num) => {
+    return num.match(/[0-9]/g).sort((a, b) => a - b);
+  });
+
+  console.log(newArr);
+}
+
+order("is2 Thi1s T4est 3a");
+
+*/
