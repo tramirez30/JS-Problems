@@ -105,6 +105,9 @@ const codeWars = {
       }
     }
   },
+  findNeedle(haystack) {
+    console.log(haystack);
+  },
 };
 
 // Problem 7: PaginationHelper - 5 kyu
@@ -198,6 +201,10 @@ helper.pageIndex(-10); // should == -1
 // let numOfLikes = codeWars.likes(["Max"]);
 // console.log(numOfLikes);
 
+// Test Case Problem #10 - A Needle in the Haystack? (8kyu)
+findNeedle("hi");
+
+// ######################################################################################## //
 /*
 New Codewar Problem [NEED TO ADD TO LOG]
 // Code War Problem
