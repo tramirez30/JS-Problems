@@ -202,7 +202,19 @@ helper.pageIndex(-10); // should == -1
 // console.log(numOfLikes);
 
 // Test Case Problem #10 - A Needle in the Haystack? (8kyu)
-findNeedle("hi");
+var haystack_1 = [
+  "3",
+  "123124234",
+  undefined,
+  "needle",
+  "world",
+  "hay",
+  2,
+  "3",
+  true,
+  false,
+];
+findNeedle(haystack_1);
 
 // ######################################################################################## //
 /*
