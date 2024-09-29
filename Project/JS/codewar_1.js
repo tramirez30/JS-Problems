@@ -106,7 +106,7 @@ const codeWars = {
     }
   },
   findNeedle(haystack) {
-    console.log(haystack);
+    return "found the needle at position " + haystack.indexOf("needle");
   },
 };
 
@@ -214,7 +214,8 @@ var haystack_1 = [
   true,
   false,
 ];
-findNeedle(haystack_1);
+
+codeWars.findNeedle(haystack_1);
 
 // ######################################################################################## //
 /*
