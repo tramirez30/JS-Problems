@@ -215,7 +215,7 @@ var haystack_1 = [
   false,
 ];
 
-codeWars.findNeedle(haystack_1);
+// codeWars.findNeedle(haystack_1);
 
 // ######################################################################################## //
 /*
