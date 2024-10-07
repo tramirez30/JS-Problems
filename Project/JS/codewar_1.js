@@ -241,7 +241,7 @@ New Codewar Problem [NEED TO ADD TO LOG]
 //   });
 // }
 
-// Codewar Problem Exercies (6kyu)
+// Codewar Problem Exercise (6kyu)
 
 function order(words) {
   let arr = words.split(" ");
