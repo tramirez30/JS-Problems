@@ -108,8 +108,8 @@ const codeWars = {
   findNeedle(haystack) {
     return "found the needle at position " + haystack.indexOf("needle");
   },
-  accum() {
-    console.log("Hello!");
+  accum(str) {
+    console.log(str);
   },
 };
 
@@ -262,5 +262,6 @@ order("is2 Thi1s T4est 3a");
 */
 
 // Problem - 7kyu Mumbling
+// Result: accum("abcd") -> "A-Bb-Ccc-Dddd"
 
-codeWars.accum();
+codeWars.accum("abcd");
