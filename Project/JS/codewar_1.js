@@ -263,5 +263,8 @@ order("is2 Thi1s T4est 3a");
 
 // Problem - 7kyu Mumbling
 // Result: accum("abcd") -> "A-Bb-Ccc-Dddd"
+// Loop string
+// First letter must be capitalized
+// Every letter after the first gets +1
 
 codeWars.accum("abcd");
