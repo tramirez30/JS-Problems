@@ -109,7 +109,9 @@ const codeWars = {
     return "found the needle at position " + haystack.indexOf("needle");
   },
   accum(str) {
-    console.log(str);
+    for (let letter of str) {
+      console.log(letter.repeat(2));
+    }
   },
 };
 
@@ -266,5 +268,6 @@ order("is2 Thi1s T4est 3a");
 // Loop string
 // First letter must be capitalized
 // Every letter after the first gets +1
+// Insert "-" after each letter
 
 codeWars.accum("abcd");
