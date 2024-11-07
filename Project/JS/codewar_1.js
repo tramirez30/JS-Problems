@@ -111,7 +111,11 @@ const codeWars = {
   accum(str) {
     let arr = str.split("");
     arr.forEach((item, index) => {
-      console.log(item.repeat(index));
+      if (index === 0) {
+        console.log(item.toUpperCase());
+      } else {
+        console.log(item.toUpperCase(), item.repeat(index) + `${item}`);
+      }
     });
   },
 };
