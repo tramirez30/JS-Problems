@@ -108,6 +108,9 @@ const codeWars = {
   findNeedle(haystack) {
     return "found the needle at position " + haystack.indexOf("needle");
   },
+  accum() {
+    console.log("Hello!");
+  },
 };
 
 // Problem 7: PaginationHelper - 5 kyu
@@ -202,18 +205,18 @@ helper.pageIndex(-10); // should == -1
 // console.log(numOfLikes);
 
 // Test Case Problem #10 - A Needle in the Haystack? (8kyu)
-var haystack_1 = [
-  "3",
-  "123124234",
-  undefined,
-  "needle",
-  "world",
-  "hay",
-  2,
-  "3",
-  true,
-  false,
-];
+// var haystack_1 = [
+//   "3",
+//   "123124234",
+//   undefined,
+//   "needle",
+//   "world",
+//   "hay",
+//   2,
+//   "3",
+//   true,
+//   false,
+// ];
 
 // codeWars.findNeedle(haystack_1);
 
@@ -257,3 +260,7 @@ function order(words) {
 order("is2 Thi1s T4est 3a");
 
 */
+
+// Problem - 7kyu Mumbling
+
+codeWars.accum();
