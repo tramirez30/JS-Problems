@@ -109,9 +109,10 @@ const codeWars = {
     return "found the needle at position " + haystack.indexOf("needle");
   },
   accum(str) {
-    for (let letter of str) {
-      console.log(letter.repeat(2));
-    }
+    let arr = str.split("");
+    arr.forEach((item, index) => {
+      console.log(item.repeat(index));
+    });
   },
 };
 
