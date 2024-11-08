@@ -114,14 +114,6 @@ const codeWars = {
       newStr += str[i].toLowerCase().repeat(i + 1) + "-";
     }
     console.log(newStr);
-    // let arr = str.split("");
-    // arr.forEach((item, index) => {
-    //   if (index === 0) {
-    //     console.log(item.toUpperCase() + " -");
-    //   } else {
-    //     console.log(item.toUpperCase() + item.repeat(index) + " -");
-    //   }
-    // });
   },
 };
 
