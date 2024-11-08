@@ -109,14 +109,17 @@ const codeWars = {
     return "found the needle at position " + haystack.indexOf("needle");
   },
   accum(str) {
-    let arr = str.split("");
-    arr.forEach((item, index) => {
-      if (index === 0) {
-        console.log(item.toUpperCase() + " -");
-      } else {
-        console.log(item.toUpperCase() + item.repeat(index) + " -");
-      }
-    });
+    for (let i = 0; i <= str.length; i++) {
+      console.log(str[i]);
+    }
+    // let arr = str.split("");
+    // arr.forEach((item, index) => {
+    //   if (index === 0) {
+    //     console.log(item.toUpperCase() + " -");
+    //   } else {
+    //     console.log(item.toUpperCase() + item.repeat(index) + " -");
+    //   }
+    // });
   },
 };
 
