@@ -109,8 +109,9 @@ const codeWars = {
     return "found the needle at position " + haystack.indexOf("needle");
   },
   accum(str) {
-    for (let i = 0; i <= str.length; i++) {
-      console.log(str[i]);
+    let newStr = "";
+    for (let i = 0; i < str.length; i++) {
+      console.log(str[i].toLowerCase().repeat(i + 1));
     }
     // let arr = str.split("");
     // arr.forEach((item, index) => {
@@ -278,4 +279,4 @@ order("is2 Thi1s T4est 3a");
 // Every letter after the first gets +1
 // Insert "-" after each letter
 
-codeWars.accum("abcd");
+codeWars.accum("AbcD");
