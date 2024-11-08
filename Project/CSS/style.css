@@ -129,3 +129,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.primary-title {
+  font-size: 72px;
+  font-weight: 600;
+  text-align: center;
+}
