@@ -112,9 +112,9 @@ const codeWars = {
     let arr = str.split("");
     arr.forEach((item, index) => {
       if (index === 0) {
-        return item.toUpperCase();
+        console.log(item.toUpperCase() + " -");
       } else {
-        return item.toUpperCase() + item.repeat(index);
+        console.log(item.toUpperCase() + item.repeat(index) + " -");
       }
     });
   },
