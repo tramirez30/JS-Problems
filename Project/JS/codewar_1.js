@@ -112,11 +112,11 @@ const codeWars = {
     let newStr = "";
     for (let i = 0; i < str.length; i++) {
       if (i === 0) {
-        console.log("First", str[i].toUpperCase());
+        newStr += str[i].toUpperCase() + "-";
       } else if (i === str.length - 1) {
-        console.log("Last ", str[i]);
+        newStr += str[i].toUpperCase().repeat(i + 1);
       } else {
-        console.log("Middle", str[i]);
+        newStr += str[i].toUpperCase().repeat(i + 1) + "-";
       }
     }
     console.log(newStr);
