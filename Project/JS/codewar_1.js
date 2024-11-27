@@ -111,7 +111,13 @@ const codeWars = {
   accum(str) {
     let newStr = "";
     for (let i = 0; i < str.length; i++) {
-      console.log(str[i]);
+      if (i === 0) {
+        console.log("First", str[i].toUpperCase());
+      } else if (i === str.length - 1) {
+        console.log("Last ", str[i]);
+      } else {
+        console.log("Middle", str[i]);
+      }
     }
     console.log(newStr);
   },
