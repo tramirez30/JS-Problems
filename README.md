@@ -38,7 +38,7 @@ Below is a list of Codewars problems I have worked on, along with their kyu leve
 | [DNA to RNA Conversion](https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript)        | 8 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
 | [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript)                | 6 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
 | [A Needle in the Haystack](https://www.codewars.com/kata/56676e8fabd2d1ff3000000c/train/javascript)     | 8 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
-| [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/javascript)                     | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :construction: _In Progress_     |
+| [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/javascript)                     | 7 kyu     | [My Solution](https://github.com/tramirez30/rough-draft/blob/master/Project/JS/codewar_1.js) | :white_check_mark: **Complete**  |
 
 > **Note:** The kyu level indicates the difficulty of the problem, with lower numbers being harder.
 
