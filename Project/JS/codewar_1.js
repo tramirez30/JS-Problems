@@ -280,4 +280,4 @@ order("is2 Thi1s T4est 3a");
 // Every letter after the first gets +1
 // Insert "-" after each letter
 
-codeWars.accum("AbcD");
+codeWars.accum("ZpglnRxqenU");
