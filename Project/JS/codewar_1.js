@@ -111,10 +111,7 @@ const codeWars = {
   accum(str) {
     let newStr = "";
     for (let i = 0; i < str.length; i++) {
-      if (i === 0) {
-        newStr += str[i].toUpperCase() + "-";
-      }
-      newStr += str[i].toUpperCase() + str[i].repeat(i + 1) + "-";
+      console.log(str[i]);
     }
     console.log(newStr);
   },
