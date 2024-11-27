@@ -114,9 +114,9 @@ const codeWars = {
       if (i === 0) {
         newStr += str[i].toUpperCase() + "-";
       } else if (i === str.length - 1) {
-        newStr += str[i].toUpperCase().repeat(i + 1);
+        newStr += str[i].toUpperCase() + str[i].toLowerCase().repeat(i);
       } else {
-        newStr += str[i].toUpperCase().repeat(i + 1) + "-";
+        newStr += str[i].toUpperCase() + str[i].toLowerCase().repeat(i) + "-";
       }
     }
     console.log(newStr);
