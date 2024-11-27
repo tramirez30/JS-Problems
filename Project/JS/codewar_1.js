@@ -117,6 +117,8 @@ const codeWars = {
   },
 };
 
+// accum("abcd") -> "A-Bb-Ccc-Dddd"
+
 // Problem 7: PaginationHelper - 5 kyu
 
 class PaginationHelper {
