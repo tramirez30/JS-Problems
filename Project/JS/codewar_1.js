@@ -258,13 +258,15 @@ helper.pageIndex(-10); // should == -1
 // Codewar Problem Exercise (6kyu)
 
 function order(words) {
+  let newArr = [];
   let arr = words.split(" ");
   // let numericalSearch = /[0-9]/g;
   // let newArr = words.match(numericalSearch).sort();
-  let newArr = arr.filter((num, index) => {
-    console.log("Order:", Number(num.match(/[0-9]/g)));
-    console.log("Index", index);
+  arr.filter((num) => {
+    let order = Number(num.match(/[0-9]/g));
+    arr.splice(0, 0, order);
   });
+  console.log(arr);
 }
 
 order("is2 Thi1s T4est 3a");
