@@ -233,8 +233,7 @@ helper.pageIndex(-10); // should == -1
 // codeWars.findNeedle(haystack_1);
 
 // ######################################################################################## //
-/*
-New Codewar Problem [NEED TO ADD TO LOG]
+
 // Code War Problem
 
 // function order(words) {
@@ -270,8 +269,6 @@ function order(words) {
 }
 
 order("is2 Thi1s T4est 3a");
-
-*/
 
 // Problem - 7kyu Mumbling
 // Result: accum("abcd") -> "A-Bb-Ccc-Dddd"
