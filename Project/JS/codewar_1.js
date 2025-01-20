@@ -119,7 +119,7 @@ const codeWars = {
         newStr += str[i].toUpperCase() + str[i].toLowerCase().repeat(i) + "-";
       }
     }
-    console.log(newStr);
+    // console.log(newStr);
   },
 };
 
@@ -261,11 +261,10 @@ function order(words) {
   let arr = words.split(" ");
   // let numericalSearch = /[0-9]/g;
   // let newArr = words.match(numericalSearch).sort();
-  let newArr = arr.filter((num) => {
-    return num.match(/[0-9]/g).sort((a, b) => a - b);
+  let newArr = arr.filter((num, index) => {
+    console.log("Order:", Number(num.match(/[0-9]/g)));
+    console.log("Index", index);
   });
-
-  console.log(newArr);
 }
 
 order("is2 Thi1s T4est 3a");
@@ -277,4 +276,4 @@ order("is2 Thi1s T4est 3a");
 // Every letter after the first gets +1
 // Insert "-" after each letter
 
-codeWars.accum("ZpglnRxqenU");
+// codeWars.accum("ZpglnRxqenU");
