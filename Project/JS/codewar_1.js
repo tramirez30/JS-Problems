@@ -128,6 +128,7 @@ const codeWars = {
 // Problem 7: PaginationHelper - 5 kyu
 
 // var helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
+// (items, itemsPerPage)
 // page1 = ["a", "b", "c", "d"]
 // page2 = ["e", "f"]
 // total: 2 pages
@@ -136,7 +137,6 @@ class PaginationHelper {
   constructor(collection, itemsPerPage) {
     this.collection = collection;
     this.itemsPerPage = itemsPerPage;
-    this.pageNum = Math.ceil(collection.length / itemsPerPage);
   }
   itemCount() {
     // returns the number of items within the entire collection
@@ -145,11 +145,15 @@ class PaginationHelper {
   }
   pageCount() {
     // returns the number of pages
-    return this.pageNum;
+
+    return Math.ceil(collection.length / itemsPerPage);
   }
   pageItemCount(pageIndex) {
     // returns the number of items on the current page. page_index is zero based.
     // this method should return -1 for pageIndex values that are out of range
+    this.collection.forEach((arr) => {
+      console.log(arr);
+    });
     console.log(pageIndex);
   }
   pageIndex(itemIndex) {
@@ -158,6 +162,12 @@ class PaginationHelper {
     console.log(itemIndex);
   }
 }
+
+const collection = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+  23, 24,
+];
+const helper = new PaginationHelper(collection, 10);
 
 // Test Case Problem #1 - How good are you really? (8 kyu)
 // codeWarProblems.betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75);
@@ -262,19 +272,19 @@ helper.pageIndex(-10); // should == -1
 
 // Codewar Problem Exercise (6kyu)
 
-function order(words) {
-  let newArr = [];
-  let arr = words.split(" ");
-  // let numericalSearch = /[0-9]/g;
-  // let newArr = words.match(numericalSearch).sort();
-  arr.filter((num) => {
-    let order = Number(num.match(/[0-9]/g));
-    arr.splice(0, 0, order);
-  });
-  console.log(arr);
-}
+// function order(words) {
+//   let newArr = [];
+//   let arr = words.split(" ");
+//   // let numericalSearch = /[0-9]/g;
+//   // let newArr = words.match(numericalSearch).sort();
+//   arr.filter((num) => {
+//     let order = Number(num.match(/[0-9]/g));
+//     arr.splice(0, 0, order);
+//   });
+//   console.log(arr);
+// }
 
-order("is2 Thi1s T4est 3a");
+// order("is2 Thi1s T4est 3a");
 
 // Problem - 7kyu Mumbling
 // Result: accum("abcd") -> "A-Bb-Ccc-Dddd"
