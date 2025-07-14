@@ -127,6 +127,11 @@ const codeWars = {
 
 // Problem 7: PaginationHelper - 5 kyu
 
+// var helper = new PaginationHelper(['a','b','c','d','e','f'], 4);
+// page1 = ["a", "b", "c", "d"]
+// page2 = ["e", "f"]
+// total: 2 pages
+
 class PaginationHelper {
   constructor(collection, itemsPerPage) {
     this.collection = collection;
