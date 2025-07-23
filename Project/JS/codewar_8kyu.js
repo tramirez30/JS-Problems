@@ -8,15 +8,18 @@ const level8Kyu = {
     let total = 0;
     if (0 <= h <= 23) {
       total += h * 3600000;
+      console.log("hour:", total);
     }
     if (0 <= m <= 59) {
-      total += (60 / m) * 1000;
+      total += m * 60000;
+      console.log("minute:", total);
     }
     if (0 <= s <= 59) {
       total += s * 1000;
+      console.log("second:", total);
     }
     return total;
   },
 };
 
-console.log(level8Kyu.past(1, 0, 0));
+console.log(level8Kyu.past(1, 1, 1));
