@@ -24,10 +24,10 @@ const level8Kyu = {
   multiply(number) {
     return number % 2 === 0 ? number * 8 : number * 9;
   },
-  // Abbreviate a Two Word Name 
+  // Abbreviate a Two Word Name
   abbrevName(name) {
     let [first, last] = name.split(" ");
-    return `${first[0].toUpperCase()}.${last[0].toUpperCase()}
+    return `${first[0].toUpperCase()}.${last[0].toUpperCase()}`;
   },
 };
 
