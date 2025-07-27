@@ -20,6 +20,15 @@ const level8Kyu = {
     }
     return total;
   },
+  // Multiply
+  multiply(number) {
+    return number % 2 === 0 ? number * 8 : number * 9;
+  },
+  // Abbreviate a Two Word Name 
+  abbrevName(name) {
+    let [first, last] = name.split(" ");
+    return `${first[0].toUpperCase()}.${last[0].toUpperCase()}
+  },
 };
 
-console.log(level8Kyu.past(1, 1, 1));
+console.log(level8Kyu.abbrevName("john doe"));
