@@ -29,6 +29,30 @@ const level8Kyu = {
     let [first, last] = name.split(" ");
     return `${first[0].toUpperCase()}.${last[0].toUpperCase()}`;
   },
+  // A Needle in the Haystack
+  findNeedle(arr) {
+    arr.forEach((word, index) => {
+      if (word === undefined) {
+        return "Your function didn't return anything";
+      } else if (word === "needle") {
+        return `found the needle at position: ${index}`;
+      }
+    });
+  },
 };
+//     let haystack_1 = ['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false];
 
-console.log(level8Kyu.abbrevName("john doe"));
+console.log(
+  level8Kyu.findNeedle([
+    "3",
+    "123124234",
+    undefined,
+    "needle",
+    "world",
+    "hay",
+    2,
+    "3",
+    true,
+    false,
+  ])
+);
