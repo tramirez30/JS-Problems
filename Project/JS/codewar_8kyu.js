@@ -31,12 +31,8 @@ const level8Kyu = {
   },
   // A Needle in the Haystack
   findNeedle(arr) {
-    arr.forEach((word, index) => {
-      if (word === undefined) {
-        return "Your function didn't return anything";
-      } else if (word === "needle") {
-        return `found the needle at position: ${index}`;
-      }
+    arr.forEach((word, index, arr) => {
+      console.log(arr[index]);
     });
   },
 };
