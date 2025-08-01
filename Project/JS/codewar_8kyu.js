@@ -31,8 +31,8 @@ const level8Kyu = {
   },
   // A Needle in the Haystack
   findNeedle(arr) {
-    return haystack.includes("needle")
-      ? `found the needle at position ${haystack.indexOf("needle")}`
+    return arr.includes("needle")
+      ? `found the needle at position ${arr.indexOf("needle")}`
       : "Your function didn't return anything";
   },
 };
