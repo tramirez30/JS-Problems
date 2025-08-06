@@ -37,11 +37,8 @@ const level8Kyu = {
   },
   // Invert Values
   invert(array) {
-    array.forEach((num) => {
-      console.log(num < 0 ? Math.abs(num) : num * -1);
-    });
+    return array.map((num) => -num);
   },
 };
-//     let haystack_1 = ['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false];
 
-console.log(level8Kyu.invert([1, 2, 3, 4, 5]));
+console.log(level8Kyu.invert([0]));
