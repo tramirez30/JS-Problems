@@ -35,19 +35,13 @@ const level8Kyu = {
       ? `found the needle at position ${arr.indexOf("needle")}`
       : "Your function didn't return anything";
   },
+  // Invert Values
+  invert(array) {
+    array.forEach((num) => {
+      console.log(num < 0 ? Math.abs(num) : num * -1);
+    });
+  },
 };
 //     let haystack_1 = ['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false];
 
-console.log(
-  level8Kyu.findNeedle([
-    "3",
-    "123124234",
-    undefined,
-    "world",
-    "hay",
-    2,
-    "3",
-    true,
-    false,
-  ])
-);
+console.log(level8Kyu.invert([1, 2, 3, 4, 5]));
