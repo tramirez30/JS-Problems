@@ -47,7 +47,7 @@ const level8Kyu = {
     array.forEach((num) => (total += num));
     return total / array.length;
   },
-  // Beginner - Reduce but Grow
+  // Reduce but Grow
   grow(array) {
     let total = 1;
     for (let num of array) {
@@ -55,17 +55,28 @@ const level8Kyu = {
     }
     return total;
   },
+  // Count of positives / sum of negatives
+
+  countPositivesSumNegatives(arr) {
+    if (!arr || arr.length === 0) return [];
+
+    let negativeValue = arr
+      .filter((num) => num < 0)
+      .reduce((sum, cur) => sum + cur, 0);
+    let positiveValue = arr.filter((num) => num > 0).length;
+
+    return [positiveValue, negativeValue];
+  },
 };
 
-console.log(level8Kyu.grow([2, 2, 2, 2, 2, 2]));
+console.log(
+  level8Kyu.countPositivesSumNegatives([
+    0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14,
+  ])
+);
 /*
-Description:
-
-Given a non-empty array of integers, return the result of multiplying 
-the values together in order. Example:
-
-[1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
-
-grow([1, 2, 3]), 6
-
+P - Array of numbers that are positive & negative
+R - number of positive integers and sum of negative
+E - [0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14] -> [8, -50]
+P - Count the positive integers. Sum all negative values
 */
