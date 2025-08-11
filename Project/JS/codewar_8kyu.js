@@ -53,7 +53,7 @@ const level8Kyu = {
     for (let num of array) {
       total *= num;
     }
-    return array.join(" * ") + " = " + `${total}`;
+    return total;
   },
 };
 
