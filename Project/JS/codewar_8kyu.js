@@ -48,10 +48,16 @@ const level8Kyu = {
     return total / array.length;
   },
   // Beginner - Reduce but Grow
-  grow(array) {},
+  grow(array) {
+    let total = 1;
+    for (let num of array) {
+      total *= num;
+    }
+    return array.join(" * ") + " = " + `${total}`;
+  },
 };
 
-console.log(level8Kyu.grow([1, 2, 3]));
+console.log(level8Kyu.grow([2, 2, 2, 2, 2, 2]));
 /*
 Description:
 
