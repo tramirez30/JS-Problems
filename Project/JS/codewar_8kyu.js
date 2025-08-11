@@ -39,6 +39,17 @@ const level8Kyu = {
   invert(array) {
     return array.map((num) => -num);
   },
+  // Calculate average
+  findAverage(array) {
+    // Note: Empty arrays should return 0.
+    if (!Array.isArray(array) || array.length === 0) return 0;
+    let total = 0;
+    array.forEach((num) => (total += num));
+    return total / array.length;
+  },
 };
 
-console.log(level8Kyu.invert([0]));
+console.log(level8Kyu.findAverage([1, 2, 3]));
+/*
+
+*/
