@@ -47,6 +47,7 @@ const level8Kyu = {
     array.forEach((num) => (total += num));
     return total / array.length;
   },
+  // Beginner - Reduce but Grow
 };
 
 console.log(level8Kyu.findAverage([1, 2, 3]));
