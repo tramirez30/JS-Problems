@@ -67,13 +67,19 @@ const level8Kyu = {
 
     return [positiveValue, negativeValue];
   },
+  // Will you make it?
+
+  zeroFuel(distanceToPump, mpg, fuelLeft) {
+    let totalFuel = mpg * fuelLeft;
+    if (totalFuel > distanceToPump) {
+      console.log("True");
+    } else {
+      console.log("False");
+    }
+  },
 };
 
-console.log(
-  level8Kyu.countPositivesSumNegatives([
-    0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14,
-  ])
-);
+console.log(level8Kyu.zeroFuel(50, 25, 2));
 /*
 P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
