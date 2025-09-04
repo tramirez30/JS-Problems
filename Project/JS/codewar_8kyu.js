@@ -70,13 +70,7 @@ const level8Kyu = {
   // Will you make it?
 
   zeroFuel(distanceToPump, mpg, fuelLeft) {
-    let totalFuel = mpg * fuelLeft;
-    console.log("Total Fuel:", totalFuel);
-    if (totalFuel >= distanceToPump) {
-      return true;
-    } else {
-      return false;
-    }
+    return fuelLeft * mpg >= distanceToPump ? true : false;
   },
 };
 
