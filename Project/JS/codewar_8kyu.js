@@ -77,11 +77,19 @@ const level8Kyu = {
   /* Write function bmi that calculates body mass index (bmi = weight / height2). */
   bmi(weight, height) {
     let mass = weight / Math.pow(height, 2);
-    console.log("Mass:", Math.ceil(mass));
+    if (mass <= 18.5) {
+      console.log("Underweight");
+    } else if (mass <= 25.0) {
+      console.log("Normal");
+    } else if (mass <= 30) {
+      console.log("Overweight");
+    } else {
+      console.log("Obese");
+    }
   },
 };
 
-console.log(level8Kyu.bmi(80, 1.8));
+console.log(level8Kyu.bmi(100, 1.8));
 /*
 P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
