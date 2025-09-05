@@ -74,12 +74,14 @@ const level8Kyu = {
   },
 
   // Calculate BMI
+  /* Write function bmi that calculates body mass index (bmi = weight / height2). */
   bmi(weight, height) {
-    return "";
+    let mass = weight / Math.pow(height, 2);
+    console.log("Mass:", Math.ceil(mass));
   },
 };
 
-console.log(level8Kyu.zeroFuel(50, 25, 2));
+console.log(level8Kyu.bmi(80, 1.8));
 /*
 P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
