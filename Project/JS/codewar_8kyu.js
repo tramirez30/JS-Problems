@@ -78,13 +78,13 @@ const level8Kyu = {
   bmi(weight, height) {
     let mass = weight / Math.pow(height, 2);
     if (mass <= 18.5) {
-      console.log("Underweight");
+      return "Underweight";
     } else if (mass <= 25.0) {
-      console.log("Normal");
+      return "Normal";
     } else if (mass <= 30) {
-      console.log("Overweight");
+      return "Overweight";
     } else {
-      console.log("Obese");
+      return "Obese";
     }
   },
 };
