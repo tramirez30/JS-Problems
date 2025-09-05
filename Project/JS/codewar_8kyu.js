@@ -72,6 +72,11 @@ const level8Kyu = {
   zeroFuel(distanceToPump, mpg, fuelLeft) {
     return fuelLeft * mpg >= distanceToPump ? true : false;
   },
+
+  // Calculate BMI
+  bmi(weight, height) {
+    return "";
+  },
 };
 
 console.log(level8Kyu.zeroFuel(50, 25, 2));
