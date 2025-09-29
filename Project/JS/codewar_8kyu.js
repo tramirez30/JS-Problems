@@ -100,7 +100,7 @@ const level8Kyu = {
     for (let i of num) {
       if (i < 5) {
         arr += "0";
-      } else if (i > 5) {
+      } else if ((i) => 5) {
         arr += "1";
       }
     }
@@ -109,7 +109,8 @@ const level8Kyu = {
 };
 
 console.log(level8Kyu.fakeBin("45385593107843568"));
-// 0011000110011 (Result)
+// 01011110001100111 (Result)
+// 01011110001100111
 
 /*
 P - Array of numbers that are positive & negative
