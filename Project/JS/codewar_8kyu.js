@@ -88,11 +88,17 @@ const level8Kyu = {
     }
   },
   // Find Maximum and Minimum Values of a List
-  min(list) {},
+  min(list) {
+    for (let num of list) {
+      if (num < 0) {
+        console.log("Max:", Math.max(num));
+      }
+    }
+  },
   max(list) {},
 };
 
-console.log(level8Kyu.bmi(100, 1.8));
+console.log(level8Kyu.min([-52, 56, 30, 29, -54, 0, -110]));
 /*
 P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
