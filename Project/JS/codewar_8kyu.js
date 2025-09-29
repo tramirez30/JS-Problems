@@ -108,9 +108,9 @@ const level8Kyu = {
   },
 };
 
-console.log(level8Kyu.fakeBin("45385593107843568"));
-// 01011110001100111 (Result)
-// 01011110001100111
+console.log(level8Kyu.fakeBin("509321967506747"));
+// 101000111101101 (Result)
+// 101000111101101 (Solution)
 
 /*
 P - Array of numbers that are positive & negative
