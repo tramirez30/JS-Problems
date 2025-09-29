@@ -95,7 +95,17 @@ const level8Kyu = {
     return Math.max(...list);
   },
   // Fake Binary
-  fakeBin(num) {},
+  fakeBin(num) {
+    let arr = "";
+    for (let i of num) {
+      if (i < 5) {
+        arr += "0";
+      } else if (i > 5) {
+        arr += "1";
+      }
+      console.log(arr);
+    }
+  },
 };
 
 console.log(level8Kyu.fakeBin("45385593107843568"));
