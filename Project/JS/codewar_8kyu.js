@@ -94,6 +94,7 @@ const level8Kyu = {
   max(list) {
     return Math.max(...list);
   },
+  // Fake Binary
 };
 
 console.log(level8Kyu.min([-52, 56, 30, 29, -54, 0, -110]));
