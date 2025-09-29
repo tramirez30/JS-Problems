@@ -103,12 +103,13 @@ const level8Kyu = {
       } else if (i > 5) {
         arr += "1";
       }
-      console.log(arr);
     }
+    return arr;
   },
 };
 
 console.log(level8Kyu.fakeBin("45385593107843568"));
+// 0011000110011 (Result)
 
 /*
 P - Array of numbers that are positive & negative
