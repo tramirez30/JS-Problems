@@ -87,6 +87,9 @@ const level8Kyu = {
       return "Obese";
     }
   },
+  // Find Maximum and Minimum Values of a List
+  min(list) {},
+  max(list) {},
 };
 
 console.log(level8Kyu.bmi(100, 1.8));
