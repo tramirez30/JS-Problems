@@ -95,10 +95,11 @@ const level8Kyu = {
     return Math.max(...list);
   },
   // Fake Binary
+  fakeBin(num) {},
 };
 
-console.log(level8Kyu.min([-52, 56, 30, 29, -54, 0, -110]));
-console.log(level8Kyu.max([-52, 56, 30, 29, -54, 0, -110]));
+console.log(level8Kyu.fakeBin("45385593107843568"));
+
 /*
 P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
