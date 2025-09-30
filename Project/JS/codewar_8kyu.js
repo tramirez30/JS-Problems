@@ -124,6 +124,10 @@ const level8Kyu = {
       console.log("Player 1 won!");
     } else if (p1 === "scissors" && p2 === "rock") {
       console.log("Player 2 won!");
+    } else if (p1 === "rock" && p2 === "paper") {
+      console.log("Player 2 won!");
+    } else if (p1 === "paper" && p2 === "scissors") {
+      console.log("Player 2 won!");
     } else if (p1 === p2) {
       return "Draw!";
     }
