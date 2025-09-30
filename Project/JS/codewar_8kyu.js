@@ -106,6 +106,8 @@ const level8Kyu = {
     }
     return arr;
   },
+  // Reversed sequence
+  // Example : n=5 --> [5,4,3,2,1]
 };
 
 console.log(level8Kyu.fakeBin("509321967506747"));
