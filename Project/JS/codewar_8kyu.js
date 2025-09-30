@@ -108,11 +108,17 @@ const level8Kyu = {
   },
   // Reversed sequence
   // Example : n=5 --> [5,4,3,2,1]
+  reverseSeq(num) {
+    let arr = [];
+    do {
+      arr.push(num);
+      num -= 1;
+    } while (num > 0);
+    return arr;
+  },
 };
 
-console.log(level8Kyu.fakeBin("509321967506747"));
-// 101000111101101 (Result)
-// 101000111101101 (Solution)
+console.log(level8Kyu.reverseSeq(5));
 
 /*
 P - Array of numbers that are positive & negative
