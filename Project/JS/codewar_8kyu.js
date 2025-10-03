@@ -118,15 +118,17 @@ const level8Kyu = {
   },
   // Rock Paper Scissors
   rps(p1, p2) {
-    const options = {
+    const map = {
       rock: "scissor",
       paper: "rock",
       scissor: "paper",
     };
 
     if (p1 === p2) {
-      console.log("Draw");
+      return "Draw";
     }
+
+    return map[p1] === p2 ? "Player 1 won!" : "Player 2 won!";
   },
 };
 
