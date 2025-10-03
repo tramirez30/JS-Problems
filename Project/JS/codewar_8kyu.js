@@ -119,9 +119,9 @@ const level8Kyu = {
   // Rock Paper Scissors
   rps(p1, p2) {
     const map = {
-      rock: "scissor",
+      rock: "scissors",
       paper: "rock",
-      scissor: "paper",
+      scissors: "paper",
     };
 
     if (p1 === p2) {
@@ -132,7 +132,7 @@ const level8Kyu = {
   },
 };
 
-console.log(level8Kyu.rps("scissors", "rock"));
+console.log(level8Kyu.rps("paper", "rock"));
 
 /*
 P - Array of numbers that are positive & negative
