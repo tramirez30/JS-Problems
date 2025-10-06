@@ -133,12 +133,17 @@ const level8Kyu = {
 
   // If you can't sleep, just count sheep!!
   countSheep(num) {
-    let phrase = "";
-    for (let i = 0; i <= num; i++) {
-      console.log(`$[i] sheep...`);
-      phrase += `$[i] sheep...`;
+    if (num <= 0) {
+      console.log("");
     }
-    console.log("Phrase:", phrase);
+    let phrase = "";
+    for (let i = 0; i < num; i++) {
+      if (i === 0) {
+        return (phrase += `${i + 1} sheep...`);
+      }
+      phrase += `${i} sheep...`;
+    }
+    console.log(phrase);
   },
 };
 
