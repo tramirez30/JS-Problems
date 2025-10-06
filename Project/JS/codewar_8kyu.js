@@ -130,9 +130,14 @@ const level8Kyu = {
 
     return map[p1] === p2 ? "Player 1 won!" : "Player 2 won!";
   },
+
+  // If you can't sleep, just count sheep!!
+  countSheep(num) {
+    console.log(num);
+  },
 };
 
-console.log(level8Kyu.rps("paper", "rock"));
+console.log(level8Kyu.countSheep("Hello World"));
 
 /*
 P - Array of numbers that are positive & negative
