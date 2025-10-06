@@ -133,11 +133,16 @@ const level8Kyu = {
 
   // If you can't sleep, just count sheep!!
   countSheep(num) {
-    console.log(num);
+    let phrase = "";
+    for (let i = 0; i <= num; i++) {
+      console.log(`$[i] sheep...`);
+      phrase += `$[i] sheep...`;
+    }
+    console.log("Phrase:", phrase);
   },
 };
 
-console.log(level8Kyu.countSheep("Hello World"));
+console.log(level8Kyu.countSheep(1));
 
 /*
 P - Array of numbers that are positive & negative
