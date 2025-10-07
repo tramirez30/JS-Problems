@@ -134,21 +134,29 @@ const level8Kyu = {
   // If you can't sleep, just count sheep!!
   countSheep(num) {
     let phrase = "";
-    for (let i = 0; i < num; i++) {
-      if (i === 0) {
-        return (phrase += `${i + 1} sheep...`);
-      }
+    if (num === 0) {
+      return phrase;
+    }
+    for (let i = 1; i <= num; i++) {
       phrase += `${i} sheep...`;
     }
     return phrase;
   },
 };
 
-console.log(level8Kyu.countSheep(1));
+console.log(level8Kyu.countSheep(0));
 
 /*
 P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
 E - [0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14] -> [8, -50]
 P - Count the positive integers. Sum all negative values
+*/
+
+/* 
+    assert.strictEqual(countSheep(0), "");
+    assert.strictEqual(countSheep(1), "1 sheep...");
+    assert.strictEqual(countSheep(2), "1 sheep...2 sheep...");
+    assert.strictEqual(countSheep(3), "1 sheep...2 sheep...3 sheep...");
+
 */
