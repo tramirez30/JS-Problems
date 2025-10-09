@@ -142,9 +142,13 @@ const level8Kyu = {
     }
     return phrase;
   },
+  // Grasshopper - Grade book
+  getGrade(s1, s2, s3) {
+    console.log(s1, s2, s3);
+  },
 };
 
-console.log(level8Kyu.countSheep(0));
+console.log(level8Kyu.getGrade(95, 90, 93));
 
 /*
 P - Array of numbers that are positive & negative
