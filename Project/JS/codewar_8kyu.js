@@ -146,6 +146,23 @@ const level8Kyu = {
   getGrade(s1, s2, s3) {
     let average = Math.floor((s1 + s2 + s3) / 3);
     console.log("Average:", average);
+    switch (average) {
+      case 90 <= average <= 100:
+        console.log("Grade:", "A");
+        break;
+      case 80 <= average < 90:
+        console.log("Grade:", "B");
+        break;
+      case 70 <= average < 80:
+        console.log("Grade:", "C");
+        break;
+      case 60 <= average < 70:
+        console.log("Grade:", "D");
+        break;
+      case 0 <= average < 60:
+        console.log("Grade:", "F");
+        break;
+    }
   },
 };
 
