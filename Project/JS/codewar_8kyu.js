@@ -145,7 +145,7 @@ const level8Kyu = {
   // Grasshopper - Grade book
   getGrade(s1, s2, s3) {
     let average = Math.floor((s1 + s2 + s3) / 3);
-    console.log(average);
+    console.log("Average:", average);
   },
 };
 
