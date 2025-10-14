@@ -145,24 +145,24 @@ const level8Kyu = {
   // Grasshopper - Grade book
   getGrade(s1, s2, s3) {
     let average = Math.floor((s1 + s2 + s3) / 3);
-    let grade = "";
+    let grade;
     console.log("Average:", average);
     switch (average) {
       case 90 <= average <= 100:
-        console.log("Grade:", (grade += "A"));
+        console.log("Grade:", (grade = "A"));
         console.log(grade);
         break;
       case 80 <= average < 90:
-        console.log("Grade:", (grade += "B"));
+        console.log("Grade:", (grade = "B"));
         break;
       case 70 <= average < 80:
-        console.log("Grade:", (grade += "C"));
+        console.log("Grade:", (grade = "C"));
         break;
       case 60 <= average < 70:
-        console.log("Grade:", (grade += "D"));
+        console.log("Grade:", (grade = "D"));
         break;
       case 0 <= average < 60:
-        console.log("Grade:", (grade += "F"));
+        console.log("Grade:", (grade = "F"));
         break;
     }
     console.log("Grade:", toString(grade));
