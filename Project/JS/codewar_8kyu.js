@@ -149,20 +149,25 @@ const level8Kyu = {
     console.log("Average:", average);
     switch (average) {
       case 90 <= average <= 100:
-        console.log("Grade:", (grade = "A"));
-        console.log(grade);
+        grade = "A";
+        console.log("Grade:", grade);
+
         break;
       case 80 <= average < 90:
-        console.log("Grade:", (grade = "B"));
+        grade = "B";
+        console.log("Grade:", grade);
         break;
       case 70 <= average < 80:
-        console.log("Grade:", (grade = "C"));
+        grade = "C";
+        console.log("Grade:", grade);
         break;
       case 60 <= average < 70:
-        console.log("Grade:", (grade = "D"));
+        grade = "D";
+        console.log("Grade:", grade);
         break;
       case 0 <= average < 60:
-        console.log("Grade:", (grade = "F"));
+        grade = "F";
+        console.log("Grade:", grade);
         break;
       default:
         grade = "No Grade Available";
