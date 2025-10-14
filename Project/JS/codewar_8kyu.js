@@ -165,7 +165,7 @@ const level8Kyu = {
         console.log("Grade:", (grade = "F"));
         break;
     }
-    console.log("Grade:", toString(grade));
+    console.log("Grade:", grade);
   },
 };
 
