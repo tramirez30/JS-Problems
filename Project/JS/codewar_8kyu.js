@@ -164,6 +164,8 @@ const level8Kyu = {
       case 0 <= average < 60:
         console.log("Grade:", (grade = "F"));
         break;
+      default:
+        grade = "No Grade Available";
     }
     console.log("Grade:", grade);
   },
