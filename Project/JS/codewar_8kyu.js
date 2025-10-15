@@ -169,6 +169,9 @@ const level8Kyu = {
     return Math.ceil(month / 3);
   },
   // Total amount of points
+  points(games) {
+    console.log(games);
+  },
 };
 
 console.log(level8Kyu.quarterOf(5));
