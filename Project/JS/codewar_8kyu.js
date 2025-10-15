@@ -162,7 +162,7 @@ const level8Kyu = {
   },
   // Remove exclamation marks
   removeExclamationMarks(word) {
-    console.log(word.replace(/\!+/gi, ""));
+    return word.replace(/\!+/gi, "");
   },
 };
 
