@@ -160,9 +160,13 @@ const level8Kyu = {
     }
     return grade;
   },
+  // Remove exclamation marks
+  removeExclamationMarks(word) {
+    console.log(word);
+  },
 };
 
-console.log(level8Kyu.getGrade(44, 55, 52));
+console.log(level8Kyu.removeExclamationMarks("Hello World!"));
 
 /*
 P - Array of numbers that are positive & negative
