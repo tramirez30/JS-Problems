@@ -168,6 +168,7 @@ const level8Kyu = {
   quarterOf(month) {
     return Math.ceil(month / 3);
   },
+  // Total amount of points
 };
 
 console.log(level8Kyu.quarterOf(5));
