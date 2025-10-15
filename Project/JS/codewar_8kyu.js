@@ -164,6 +164,10 @@ const level8Kyu = {
   removeExclamationMarks(word) {
     return word.replace(/\!+/gi, "");
   },
+  // Quarter of the year
+  quarterOf(month) {
+    console.log(month);
+  },
 };
 
 console.log(level8Kyu.removeExclamationMarks("Hello World!"));
