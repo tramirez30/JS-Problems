@@ -146,29 +146,29 @@ const level8Kyu = {
   getGrade(s1, s2, s3) {
     let average = Math.floor((s1 + s2 + s3) / 3);
     let grade;
+    console.log("Average:", average);
 
-    if (90 <= average <= 100) {
+    if (average >= 90 && average < 100) {
       grade = "A";
       console.log("Grade:", grade);
-    } else if (80 <= average < 90) {
+    } else if (average >= 80 && average < 90) {
       grade = "B";
       console.log("Grade:", grade);
-    } else if (70 <= average < 80) {
+    } else if (average >= 70 && average < 80) {
       grade = "C";
       console.log("Grade:", grade);
-    } else if (60 <= average < 70) {
+    } else if (average >= 60 && average < 70) {
       grade = "D";
       console.log("Grade:", grade);
     } else {
       grade = "F";
       console.log("Grade:", grade);
     }
-
-    console.log("Grade:", grade);
+    console.log("Final Grade:", grade);
   },
 };
 
-console.log(level8Kyu.getGrade(95, 90, 93));
+console.log(level8Kyu.getGrade(45, 32, 90));
 
 /*
 P - Array of numbers that are positive & negative
