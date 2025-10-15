@@ -166,7 +166,7 @@ const level8Kyu = {
   },
   // Quarter of the year
   quarterOf(month) {
-    console.log("Quarter:", Math.ceil(month / 3));
+    return Math.ceil(month / 3);
   },
 };
 
