@@ -162,7 +162,7 @@ const level8Kyu = {
   },
 };
 
-console.log(level8Kyu.getGrade(45, 32, 90));
+console.log(level8Kyu.getGrade(44, 55, 52));
 
 /*
 P - Array of numbers that are positive & negative
