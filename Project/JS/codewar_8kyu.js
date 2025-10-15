@@ -166,11 +166,11 @@ const level8Kyu = {
   },
   // Quarter of the year
   quarterOf(month) {
-    console.log(month);
+    console.log("Quarter:", Math.ceil(month / 3));
   },
 };
 
-console.log(level8Kyu.removeExclamationMarks("Hello World!"));
+console.log(level8Kyu.quarterOf(5));
 
 /*
 P - Array of numbers that are positive & negative
