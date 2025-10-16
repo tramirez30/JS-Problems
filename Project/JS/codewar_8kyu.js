@@ -170,7 +170,9 @@ const level8Kyu = {
   },
   // Total amount of points
   points(games) {
-    console.log(games[9][0]);
+    let [one, two] = games;
+    console.log(one);
+    console.log(two);
   },
 };
 
