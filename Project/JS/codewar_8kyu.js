@@ -170,11 +170,24 @@ const level8Kyu = {
   },
   // Total amount of points
   points(games) {
-    console.log(games);
+    console.log(games[9][0]);
   },
 };
 
-console.log(level8Kyu.quarterOf(5));
+console.log(
+  level8Kyu.points([
+    "1:0",
+    "2:0",
+    "3:0",
+    "4:0",
+    "2:1",
+    "3:1",
+    "4:1",
+    "3:2",
+    "4:2",
+    "4:3",
+  ])
+);
 
 /*
 P - Array of numbers that are positive & negative
