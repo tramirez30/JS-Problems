@@ -176,32 +176,29 @@ const level8Kyu = {
       let second = item[2];
 
       if (first === second) {
-        console.log("1 Point");
         total += 1;
       } else if (first > second) {
         total += 3;
-        console.log("3 Points");
       } else {
         total += 0;
-        console.log("0 Points");
       }
     }
-    console.log("Total", total);
+    return total;
   },
 };
 
 console.log(
   level8Kyu.points([
-    "1:1",
-    "2:2",
-    "3:3",
+    "1:0",
+    "2:0",
+    "3:0",
     "4:4",
     "2:2",
     "3:3",
-    "4:4",
-    "3:3",
-    "4:4",
-    "4:4",
+    "1:4",
+    "2:3",
+    "2:4",
+    "3:4",
   ])
 );
 
