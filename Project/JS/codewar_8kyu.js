@@ -189,6 +189,10 @@ const level8Kyu = {
   otherAngle(a, b) {
     return 180 - (a + b);
   },
+  // Thinkful - Logic Drills: Traffic light
+  updateLight(current) {
+    //your code here!
+  },
 };
 
 console.log(level8Kyu.otherAngle(25, 25));
