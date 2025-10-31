@@ -185,6 +185,7 @@ const level8Kyu = {
     }
     return total;
   },
+  // Third Angle of a Triangle
 };
 
 console.log(
@@ -207,12 +208,4 @@ P - Array of numbers that are positive & negative
 R - number of positive integers and sum of negative
 E - [0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14] -> [8, -50]
 P - Count the positive integers. Sum all negative values
-*/
-
-/* 
-    assert.strictEqual(countSheep(0), "");
-    assert.strictEqual(countSheep(1), "1 sheep...");
-    assert.strictEqual(countSheep(2), "1 sheep...2 sheep...");
-    assert.strictEqual(countSheep(3), "1 sheep...2 sheep...3 sheep...");
-
 */
