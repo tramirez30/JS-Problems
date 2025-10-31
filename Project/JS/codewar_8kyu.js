@@ -187,11 +187,11 @@ const level8Kyu = {
   },
   // Third Angle of a Triangle
   otherAngle(a, b) {
-    return 0;
+    return 180 - (a + b);
   },
 };
 
-console.log(level8Kyu.otherAngle());
+console.log(level8Kyu.otherAngle(25, 25));
 
 /*
 P - Array of numbers that are positive & negative
